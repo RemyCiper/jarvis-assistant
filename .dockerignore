@@ -1,0 +1,6 @@
+.git
+.dart_tool
+.flutter-plugins
+build
+.env
+backend/.env
