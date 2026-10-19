@@ -1,4 +1,4 @@
-FROM ghcr.io/cirruslabs/flutter:stable AS flutter-build
+FROM ghcr.io/cirruslabs/flutter:3.47.7 AS flutter-build
 WORKDIR /app
 COPY . .
 RUN flutter pub get && flutter build web
